@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Andrea's Gatsby Contentful Demo",
+    description: "Official Contentful Gatsby Demo utilizing Contentful's Delivery and Preview APIs and Stackbit",
   },
   plugins: [
     "gatsby-transformer-sharp",
