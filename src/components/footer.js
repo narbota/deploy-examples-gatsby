@@ -6,7 +6,7 @@ import * as styles from './footer.module.css'
 const Footer = () => (
   <Container as="footer">
     <div className={styles.container}>
-      Built with :netliheart:  <a href="https://www.gatsbyjs.com">Gatsby</a> and <a href="https://www.contentful.com">Contentful</a> and <a href="https://www.stackbit.com">Stackbit</a>
+      Built with <a href="https://www.gatsbyjs.com">Gatsby</a> and <a href="https://www.contentful.com">Contentful</a> and <a href="https://www.stackbit.com">Stackbit</a>
     </div>
   </Container>
 )
