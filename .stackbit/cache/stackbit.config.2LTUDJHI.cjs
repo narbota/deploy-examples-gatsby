@@ -38,11 +38,9 @@ var stackbit_config_default = (0, import_types.defineStackbitConfig)(
         accessToken: process.env.CONTENTFUL_MANAGEMENT_TOKEN
       })
     ],
-    modelExtensions: [
-      { name: "page", type: "page", urlPath: "/{slug}" }
-    ]
+    modelExtensions: [{ name: "page", type: "page", urlPath: "/{slug}" }]
   }
 );
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {});
-//# sourceMappingURL=stackbit.config.YUZTPP4T.cjs.map
+//# sourceMappingURL=stackbit.config.2LTUDJHI.cjs.map

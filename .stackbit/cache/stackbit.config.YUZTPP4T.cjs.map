@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../stackbit.config.js"],
-  "sourcesContent": ["import { ContentfulContentSource } from '@stackbit/cms-contentful';\nimport { defineStackbitConfig } from '@stackbit/types';\n/* eslint-disable import/no-anonymous-default-export */ \n\n\nexport default defineStackbitConfig({\n  stackbitVersion: '~0.6.0',\n  ssgName: 'gatsby',\n  nodeVersion: '16',\n  contentSources: [\n    new ContentfulContentSource({\n      spaceId: process.env.CONTENTFUL_SPACE_ID,\n      environment: process.env.CONTENTFUL_ENVIRONMENT,\n      previewToken: process.env.CONTENTFUL_PREVIEW_TOKEN,\n      accessToken: process.env.CONTENTFUL_MANAGEMENT_TOKEN,\n    }),\n  ],\n  modelExtensions: [\n    { name: 'page', type: 'page', urlPath: '/{slug}' }\n  ]\n}\n)"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,4BAAwC;AACxC,mBAAqC;AAIrC,IAAO,8BAAQ;AAAA,EAAqB;AAAA,IAClC,iBAAiB;AAAA,IACjB,SAAS;AAAA,IACT,aAAa;AAAA,IACb,gBAAgB;AAAA,MACd,IAAI,8CAAwB;AAAA,QAC1B,SAAS,QAAQ,IAAI;AAAA,QACrB,aAAa,QAAQ,IAAI;AAAA,QACzB,cAAc,QAAQ,IAAI;AAAA,QAC1B,aAAa,QAAQ,IAAI;AAAA,MAC3B,CAAC;AAAA,IACH;AAAA,IACA,iBAAiB;AAAA,MACf,EAAE,MAAM,QAAQ,MAAM,QAAQ,SAAS,UAAU;AAAA,IACnD;AAAA,EACF;AACA;",
-  "names": []
-}
