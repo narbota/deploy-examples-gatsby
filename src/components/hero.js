@@ -10,7 +10,7 @@ const Hero = ({ image, title, content }) => (
       <StaticImage
         className={styles.image}
         alt={title}
-        src="https://images.unsplash.com/photo-1529688530647-93a6e1916f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+        src="https://images.pexels.com/photos/325680/pexels-photo-325680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       />
     )}
     <div className={styles.details}>

@@ -20,7 +20,7 @@ const ArticlePreview = ({ posts }) => {
               <Link to={`/blog/${post.slug}`} className={styles.link}>
                 <StaticImage
                   alt=""
-                  src="https://images.unsplash.com/photo-1538685634737-24b83e3fa2f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src={post.image}
                 />
                 <h2 className={styles.title}>{post.title}</h2>
               </Link>
